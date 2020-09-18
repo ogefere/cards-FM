@@ -1,0 +1,177 @@
+body {
+  font-family: "Poppins" !important;
+  text-align: center !important;
+  padding: 3%;
+  color: grey !important;
+  font-size: 15px;
+  height: 100vh;
+  padding-bottom: 5% !important;
+  margin-right: 0;
+}
+
+#head {
+  padding-top: 1%;
+  padding-bottom: 5% !important;
+  font-family: "Poppins" !important;
+}
+
+#cards {
+  text-align: left !important;
+  margin-bottom: 10%;
+  font-family: "Poppins" !important;
+
+  /* padding: 10%; */
+}
+
+.card {
+  padding-left: 5%;
+  /* margin-bottom: 2%; */
+}
+
+/* .eachcard {
+  margin-bottom: 50% !important;
+} */
+
+.othercards {
+  justify-content: center !important;
+}
+
+.card-body {
+  padding: 7% !important;
+  justify-content: center;
+}
+
+.head-1 {
+  font-weight: lighter;
+  padding-bottom: 0;
+  font-family: "Poppins" !important;
+}
+
+.head-2 {
+  color: rgb(97, 90, 90);
+  font-weight: bolder;
+  font-weight: 600px;
+  font-family: "Poppins" !important;
+}
+.head-text {
+  padding-top: 1%;
+  width: 45%;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: lighter;
+}
+
+.card-title {
+  color: rgb(97, 90, 90);
+}
+
+img {
+  padding: 2%;
+  position: relative !important;
+  left: 80%;
+  width: 25%;
+  padding: 2%;
+}
+
+.card-text {
+  font-weight: lighter;
+  /* margin: 0 auto !important; */
+  width: 100%;
+  font-size: 12px !important;
+}
+
+.card-1 {
+  border-top: solid 0.2rem hsl(180, 62%, 55%) !important;
+  /* position: absolute !important;
+  top: 60% !important; */
+  margin-top: 40%;
+  position: relative;
+  bottom: 2.7rem;
+  /* margin-right: 3%; */
+}
+
+.card-2 {
+  border-top: solid 0.2rem hsl(0, 78%, 62%) !important;
+  margin-bottom: 0;
+}
+
+.bottomcard {
+  /* padding-top: 3%; */
+  justify-content: center !important;
+}
+
+.card-3 {
+  border-top: solid 0.2rem hsl(34, 97%, 64%) !important;
+  position: absolute;
+  bottom: 7rem;
+}
+
+.card-4 {
+  border-top: solid 0.2rem hsl(212, 86%, 64%) !important;
+  /* position: absolute !important;
+  top: 60% !important; */
+  position: relative;
+  bottom: 5rem;
+  margin-top: 50%;
+  /* margin-left: 2%; */
+}
+
+@media screen and (max-width: 375px) {
+  #head {
+    padding-bottom: 0 !important;
+    padding-top: 8% !important;
+    width: 100% !important;
+  }
+
+  .head-1 {
+    font-size: revert;
+  }
+  .head-2 {
+    font-size: revert;
+  }
+  .head-text {
+    width: 98%;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 7%;
+  }
+  .card-body {
+    padding: 0;
+  }
+  #card {
+    margin-bottom: 10% !important;
+  }
+
+  .card {
+    margin-bottom: 8%;
+    margin-left: 3%;
+    width: 90%;
+    display: block;
+    padding: 0;
+  }
+
+  .card-1 {
+    margin-top: 20%;
+  }
+
+  .card-4 {
+    margin-top: 0;
+    position: relative !important;
+    bottom: 1.5rem;
+  }
+
+  .card-2 {
+    position: relative;
+    bottom: 2rem;
+  }
+
+  .card-3 {
+    position: relative;
+    bottom: 1rem;
+  }
+
+  /* .img {
+    position: relative !important;
+    right: 40% !important;
+  } */
+}
